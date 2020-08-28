@@ -8,6 +8,7 @@ O teste está estruturado em 2 etapas: </p>
 <li>Teste Teórico</li>
 <li>Teste Prático</li>
 </il>
+<br>
 <p>Cada etapa dos testes foram realizadas em sequencia, conforme respostas abaixo
 </p>
 <p>Para acessar o dashboard criado para este desafio, basta realizar o download do arquivo <em>Relatório Hypercloud (Livraria).pbi</em> e ativar os botões de Drill Down nos tres Mapas (<em>Abas: Resumo Geral, Vendas e Clientes</em>) e também no Gráfico de Area (<em>Aba Vendas</em>)
