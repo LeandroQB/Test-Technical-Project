@@ -50,7 +50,8 @@ PowerBI, Tableau e Qlik Sense
 4) O que é uma Tabela Fato e o que é uma Tabela Dimensão?</b>
 </p>
 <p>
-Tabela Fato - É a tabela onde armazenam as métricas e as foreign keys. A métrica é utilizada para mensurar/quantificar algo, já a foreign key é chave utilizada para relacionar os dados entre as tabelas fato e dimensão.
+Tabela Fato - É a tabela onde armazenam as métricas e as foreign keys. A métrica é utilizada para mensurar/quantificar algo, já a foreign key é chave utilizada para relacionar os dados entre as tabelas fato e dimensão.</p>
+<p>
 Tabela Dimensão - É a tabela que possui o detalhamento especifico de cada dimensão, podendo conter uma ou mais chaves identificadoras. A tabela dimensão descreve as entidades do negócio/item que você irá modelar.
 </p>
 <p><b>
@@ -63,15 +64,15 @@ Star Schema e Snow Floke
 6) O que significa Surrogate Key?</b>
 </p>
 <p>
-Surrogate Key = Chave Artificial Auto-Incremental.
-A surrogate key é o campo de Primary Key da tabela dimensão, utilizado para conectar a mesma à tabela fato. Na tabela fato ela será uma Foreign Key que é utilizada para relacionar os dados entre as tabelas. Já na tabela dimensão ela será a Primary Key.
+Surrogate Key = Chave Artificial Auto-Incremental.</p>
+<p>A surrogate key é o campo de Primary Key da tabela dimensão, utilizado para conectar a mesma à tabela fato. Na tabela fato ela será uma Foreign Key que é utilizada para relacionar os dados entre as tabelas. Já na tabela dimensão ela será a Primary Key.
 </p>
 <p><b>
 7) Explique a diferença entre relacionamento 1 para 1 e 1 para N?</b>
 </p>
 <p>
-1:1 - No relacionamento 1:1, um item de uma entidade só poder se relacionar com um elemento de outra entidade. Ex. (Tendo duas entidades "Clientes" e "Endereço", um cliente só poderá possuir um endereço, e também, um endereço só pode estar relacionado à um cliente.
-1:N - No relacionamento 1:N, um item de uma entidade pode se relacionar com vários outros itens de outra entidade. Ex. (Uma departamento possui vários funcionários, mas, um funcionário só é vinculado a um departamento).
+1:1 - No relacionamento 1:1, um item de uma entidade só poder se relacionar com um elemento de outra entidade. Ex. (Tendo duas entidades "Clientes" e "Endereço", um cliente só poderá possuir um endereço, e também, um endereço só pode estar relacionado à um cliente.</p>
+<p>1:N - No relacionamento 1:N, um item de uma entidade pode se relacionar com vários outros itens de outra entidade. Ex. (Uma departamento possui vários funcionários, mas, um funcionário só é vinculado a um departamento).
 </p>
 <p><b>
 8) O que significa Drill Down / Drill Up?</b>
